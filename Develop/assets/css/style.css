@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* Line 11 - 47 style header section */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -45,11 +45,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+/* Line 11 - 47 style header section */
 
-p {
-    font-size: 16px;
-}
-
+/* line 51 - 58 style banner image */
 .banner {
     height: 800px;
     width: 100%;
@@ -58,10 +56,35 @@ p {
     background-size: cover;
     background-position: center;
 }
+/* line 51 - 58 style banner image */
 
-.float-left {
-    float: left;
-    margin-right: 25px;
+/* line 62 - 98 style main section content  */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;    
+}
+
+.main-section-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
+}
+
+.content img {
+    max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .float-right {
@@ -69,13 +92,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-    
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
+/* line 62 - 98 style main section content  */
 
+/* line 102 - 124 styles sidebar  */
 .sidebar {
     margin-right: 20px;
     padding: 20px;
@@ -99,25 +122,9 @@ h3 {
     margin: 10px auto;
     max-width: 150px;
 }
+/* line 102 - 124 styles sidebar  */
 
-.main-section-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content img {
-    max-height: 200px;
-}
-
-.content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* line 128 - 137 style footer  */
 .footer {
     padding: 30px;
     clear: both;
@@ -128,3 +135,4 @@ h3 {
 .footer h2 {
     font-size: 20px;
 }
+/* line 128 - 137 style footer  */
