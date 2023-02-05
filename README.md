@@ -20,3 +20,6 @@ N/A
 ## License
 
 Please refer to LICENSE in repo
+
+## Screenshot of Page
+![screenshot of page](Assets\01-html-css-git-homework-demo.pngraw=true)
