@@ -46,7 +46,6 @@ a {
     text-decoration: none;
 }
 /* Line 11 - 47 style header section */
-
 /* line 51 - 58 style banner image */
 .banner {
     height: 800px;
@@ -57,7 +56,6 @@ a {
     background-position: center;
 }
 /* line 51 - 58 style banner image */
-
 /* line 62 - 98 style main section content  */
 .content {
     width: 75%;
@@ -97,7 +95,6 @@ p {
     margin-right: 25px;
 }
 /* line 62 - 98 style main section content  */
-
 /* line 102 - 124 styles sidebar  */
 .sidebar {
     margin-right: 20px;
@@ -123,7 +120,6 @@ h3 {
     max-width: 150px;
 }
 /* line 102 - 124 styles sidebar  */
-
 /* line 128 - 137 style footer  */
 .footer {
     padding: 30px;
